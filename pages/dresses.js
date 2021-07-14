@@ -6,7 +6,7 @@ import getApiResult from '../util/getApiResults'
 import Header from "../components/Header";
 
 const Home = ({ productsList }) => (
-  <div>
+  <div className={styles.container}> 
     <Head className="justify-content-center">
       <title>Products Listing</title>
       <meta name="description" content="Products Listing of Dresses" />
@@ -28,10 +28,10 @@ Home.propTypes = {
 };
 
 export const getStaticProps = async () => {
-  const value = await getApiResult('Dresses');
+  const value = await getApiResult('women_dresses');
   return {
     props: {
-      productsList: value.response,
+      productsList: value.products,
     },
   };
 };

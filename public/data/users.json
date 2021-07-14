@@ -9,8 +9,8 @@
             "preference": {
                 "size": ["M","L"],
                 "categories": ["Dresses","Shirts"],
-                "avatar": "public/images/unicorn.jp2",
-                "hpContent": "Welcome dear unicorn"
+                "avatar": "/images/unicorn.jpg",
+                "hpContent": "Welcome dear unicorn. Look into colourful clothes &  tops"
             }
         },
         "stanley": {
@@ -22,8 +22,8 @@
             "preference": {
                 "size": ["M","L"],
                 "categories": ["Dresses","Shirts"],
-                "avatar": "public/images/mrBean.jp2",
-                "hpContent": "Welcome dear mrBean"
+                "avatar": "/images/mrBean.jpg",
+                "hpContent": "Hello Mr Bean!!"
             }
         },
         "simon": {
@@ -35,8 +35,8 @@
             "preference": {
                 "size": ["M","L"],
                 "categories": ["Dresses","Shirts"],
-                "avatar": "public/images/percypig.jp2",
-                "hpContent": "Welcome dear percy pig"
+                "avatar": "/images/percypig.jpg",
+                "hpContent": "Hello Mr Percy pig"
             }
         }
     }

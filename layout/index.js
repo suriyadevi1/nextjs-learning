@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { Component } from "react";
+import React from "react";
 import { Row, Col, Card } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import PropTypes from "prop-types";
@@ -17,25 +17,25 @@ const Layout = ({ productsList }) => {
   return (
     <main className={styles.main}>
       <Row>
-        {productsList.docs.map((product, index) => {
+        {productsList.map((product, index) => {
           if (index < 3) {
             return (
               <Col className={styles.col} key={product.title}>
                 <Link
                   href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
-                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.variants[0].productViewImage}`}
+                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}`}
                 >
                   <Card className={styles.card}>
                     <Card.Img
                       variant="top"
                       width="50%"
                       height="200px"
-                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.variants[0].productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
+                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
                     />
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
                         <a
-                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}?`}
+                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
                         >
                           {product.title}
                         </a>
@@ -51,25 +51,25 @@ const Layout = ({ productsList }) => {
         })}
       </Row>
       <Row>
-        {productsList.docs.map((product, index) => {
+        {productsList.map((product, index) => {
           if (index >= 3 && index < 6) {
             return (
               <Col className={styles.col} key={product.title}>
                 <Link
                   href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
-                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.variants[0].productViewImage}`}
+                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}`}
                 >
                   <Card className={styles.card}>
                     <Card.Img
                       variant="top"
                       width="50%"
                       height="200px"
-                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.variants[0].productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
+                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
                     />
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
                         <a
-                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}?`}
+                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
                         >
                           {product.title}
                         </a>
@@ -85,25 +85,59 @@ const Layout = ({ productsList }) => {
         })}
       </Row>
       <Row>
-        {productsList.docs.map((product, index) => {
+        {productsList.map((product, index) => {
           if (index >= 6 && index < 9) {
             return (
               <Col className={styles.col} key={product.title}>
                 <Link
                   href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
-                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.variants[0].productViewImage}`}
+                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}`}
                 >
                   <Card className={styles.card}>
                     <Card.Img
                       variant="top"
                       width="50%"
                       height="200px"
-                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.variants[0].productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
+                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
                     />
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
                         <a
-                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}?`}
+                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                        >
+                          {product.title}
+                        </a>
+                      </Card.Title>
+                    </Card.Body>
+                  </Card>
+                </Link>
+                <p>Price: {product.listPriceText}</p>
+                <p>Rating : {product.averageRating}</p>
+              </Col>
+            );
+          }
+        })}
+      </Row>
+      <Row>
+        {productsList.map((product, index) => {
+          if (index >= 9 && index < 12) {
+            return (
+              <Col className={styles.col} key={product.title}>
+                <Link
+                  href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}`}
+                >
+                  <Card className={styles.card}>
+                    <Card.Img
+                      variant="top"
+                      width="50%"
+                      height="200px"
+                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
+                    />
+                    <Card.Body className="d-flex flex-column">
+                      <Card.Title>
+                        <a
+                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
                         >
                           {product.title}
                         </a>

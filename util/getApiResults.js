@@ -1,20 +1,22 @@
-import axios from "axios";
 
-const getApiResult = async (termValue = "Dresses") => {
-    const endpoint =
-      "https://api-stage.marksandspencer.com/outfit-creator-service/search";
-    const param = `term=${termValue}`;
-    const results = await axios
-      .get(`${endpoint}?${param}`)
-      .then((res) => ({
-        error: false,
-        response: res.data,
-      }))
-      .catch(() => ({
-        error: true,
-        response: null,
-      }));
-    return results.response;
+
+const getApiResult = async (termValue = "women_dresses") => {
+  const endpoint  = `http://localhost:3000/data/${termValue}.json`
+    const results = await fetch(endpoint,{
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }}).then(res => res.json()).then(result => {
+      if (result.errors) {
+          throw new Error(result.errors[0].message);
+      }
+      return result;
+  }).catch(e => {
+      console.log(`Failed to fetch ${termValue} data`);
+      return false;
+  });  
+
+  return results;
 };
 
 export default getApiResult;
