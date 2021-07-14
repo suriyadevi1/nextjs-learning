@@ -1,0 +1,43 @@
+{
+    "users": {
+        "suriya": {
+            "name": "Suriya",
+            "dob": "29-11-1988",
+            "age": "32",
+            "address": "London",
+            "gender": "Female",
+            "preference": {
+                "size": ["M","L"],
+                "categories": ["Dresses","Shirts"],
+                "avatar": "public/images/unicorn.jp2",
+                "hpContent": "Welcome dear unicorn"
+            }
+        },
+        "stanley": {
+            "name": "Stanley",
+            "dob": "29-11-1988",
+            "age": "32",
+            "address": "London",
+            "gender": "Male",
+            "preference": {
+                "size": ["M","L"],
+                "categories": ["Dresses","Shirts"],
+                "avatar": "public/images/mrBean.jp2",
+                "hpContent": "Welcome dear mrBean"
+            }
+        },
+        "simon": {
+            "name": "Simon",
+            "dob": "29-11-1988",
+            "age": "32",
+            "address": "London",
+            "gender": "Male",
+            "preference": {
+                "size": ["M","L"],
+                "categories": ["Dresses","Shirts"],
+                "avatar": "public/images/percypig.jp2",
+                "hpContent": "Welcome dear percy pig"
+            }
+        }
+    }
+}
