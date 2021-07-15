@@ -1,7 +1,7 @@
 {
     "users": {
         "suriya": {
-            "name": "Suriya",
+            "name": "suriya",
             "dob": "29-11-1988",
             "age": "32",
             "address": "London",
@@ -14,7 +14,7 @@
             }
         },
         "stanley": {
-            "name": "Stanley",
+            "name": "stanley",
             "dob": "29-11-1988",
             "age": "32",
             "address": "London",
@@ -27,7 +27,7 @@
             }
         },
         "simon": {
-            "name": "Simon",
+            "name": "simon",
             "dob": "29-11-1988",
             "age": "32",
             "address": "London",
@@ -35,6 +35,19 @@
             "preference": {
                 "size": ["M","L"],
                 "categories": ["Dresses","Shirts"],
+                "avatar": "/images/percypig.jpg",
+                "hpContent": "Hello Mr Percy pig"
+            }
+        },
+        "dev": {
+            "name": "dev",
+            "dob": "29-11-1988",
+            "age": "32",
+            "address": "London",
+            "gender": "Both",
+            "preference": {
+                "size": ["M","L"],
+                "categories": ["Dresses","Shirts","Unisex"],
                 "avatar": "/images/percypig.jpg",
                 "hpContent": "Hello Mr Percy pig"
             }

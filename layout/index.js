@@ -23,14 +23,14 @@ const Layout = ({ productsList }) => {
               <Col className={styles.col} key={product.title}>
                 <Link
                   href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
-                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}`}
+                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}`}
                 >
                   <Card className={styles.card}>
                     <Card.Img
                       variant="top"
-                      width="50%"
-                      height="200px"
-                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
+                      width="70%"
+                      height="250px"
+                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}?wid=190&qlt=80&fmt=pjpeg`}
                     />
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
@@ -57,14 +57,14 @@ const Layout = ({ productsList }) => {
               <Col className={styles.col} key={product.title}>
                 <Link
                   href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
-                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}`}
+                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}`}
                 >
                   <Card className={styles.card}>
                     <Card.Img
                       variant="top"
-                      width="50%"
-                      height="200px"
-                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
+                      width="70%"
+                      height="250px"
+                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}?wid=190&qlt=80&fmt=pjpeg`}
                     />
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
@@ -91,14 +91,14 @@ const Layout = ({ productsList }) => {
               <Col className={styles.col} key={product.title}>
                 <Link
                   href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
-                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}`}
+                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}`}
                 >
                   <Card className={styles.card}>
                     <Card.Img
                       variant="top"
-                      width="50%"
-                      height="200px"
-                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
+                      width="70%"
+                      height="250px"
+                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}?wid=190&qlt=80&fmt=pjpeg`}
                     />
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
@@ -125,14 +125,14 @@ const Layout = ({ productsList }) => {
               <Col className={styles.col} key={product.title}>
                 <Link
                   href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
-                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}`}
+                  as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}`}
                 >
                   <Card className={styles.card}>
                     <Card.Img
                       variant="top"
-                      width="50%"
-                      height="200px"
-                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.productViewImage}?wid=190&qlt=80&fmt=pjpeg`}
+                      width="70%"
+                      height="250px"
+                      src={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}?wid=190&qlt=80&fmt=pjpeg`}
                     />
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
