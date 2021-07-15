@@ -4,49 +4,28 @@
     "products": [
         {
             "currency": "GBP",
-            "brand": "Per Una",
-            "productDefinition": "Blouses",
-            "outOfStock": false,
-            "productType": "Clothing",
-            "listPriceText": "&pound; 35.00",
-            "title": "Pure Cotton Broderie V-Neck Blouse",
-            "averageRating": "0.0",
-            "modelViewImage": "SD_01_T53_2203U_KY_X_EC_90",
-            "productViewImage": "SD_01_T53_2203U_KY_X_EC_90",
-            "productSeoUrl": "/pure-cotton-broderie-v-neck-blouse/p/clp60458923?image=SD_01_T53_2203U_KY_X_EC_90&color=IVORY&prevPage=srp",
-            "productId": "P60458923",
-            "productColour": "IVORY",
-            "sex": "Female",
-            "size": [
-                "L",
-                "XL",
-                "XXL"
-            ],
-            "stock": "10",
-            "description": "All-over florals and a swishy swing silhouette lend a playful feel to this knee-length dress. It's cut in a comfy regular fit, with a collared neckline and button-through front for a smart touch. The 3/4 length sleeves are pleated at the cuffs for added volume. Made with sustainably sourced viscose. \nM&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles."
-        },
-        {
-            "currency": "GBP",
-            "brand": "M&S Collection",
-            "productDefinition": "Sweatshirts",
+            "brand": "GOODMOVE",
+            "productDefinition": "Tops",
             "outOfStock": false,
             "productType": "Clothing",
             "listPriceText": "&pound; 25.00",
-            "title": "Pure Cotton Graphic Sweatshirt",
-            "averageRating": "0.0",
-            "modelViewImage": "SD_03_T28_1169M_QG_X_EC_0",
-            "productViewImage": "SD_03_T28_1169M_QG_X_EC_90",
-            "productSeoUrl": "/pure-cotton-graphic-sweatshirt/p/clp60502537?image=SD_03_T28_1169M_QG_X_EC_90&color=TOFFEE&prevPage=srp",
-            "productId": "P60502537",
-            "productColour": "TOFFEE",
+            "title": "V-Neck Sleeveless Vest Top",
+            "averageRating": "5.0",
+            "modelViewImage": "SD_01_T51_5170_Y0_X_EC_0",
+            "productViewImage": "SD_01_T51_5170_Y0_X_EC_90",
+            "productSeoUrl": "/v-neck-sleeveless-vest-top/p/clp60495299?color=BLACK",
+            "productId": "P60495299",
+            "productColour": "BLACK",
             "sex": "Both",
             "size": [
                 "S",
                 "M",
-                "L"
+                "L",
+                "XL",
+                "XXL"
             ],
             "stock": "14",
-            "description": "We've given the classic shirt dress a floral flourish with this statement-making design. It's cut in a regular fit, with a waist-skimming empire line and elegant midi length. The button placket finishes just below the knee, creating a flowing split hem. Short sleeves make it perfect for warmer weather. M&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles."
+            "description": "With a seamless design, this v-neck vest top from our Goodmove collection was made for ultimate comfort. This tight fitted style features an inner shelf for light support when exercising. Plus, its breathable fabric is both moisture-wicking and quick-drying, working hard to keep you feeling fresh."
         },
         {
             "currency": "GBP",
@@ -56,7 +35,7 @@
             "productType": "Clothing",
             "listPriceText": "&pound; 39.50",
             "title": "Floral Short Sleeve Midi Shirt Dress",
-            "averageRating": "0.0",
+            "averageRating": "4.50",
             "modelViewImage": "SD_01_T69_8642_E4_X_EC_0",
             "productViewImage": "SD_01_T69_8642_E4_X_EC_90",
             "productSeoUrl": "/floral-short-sleeve-midi-shirt-dress/p/clp60448253?image=SD_01_T69_8642_E4_X_EC_90&color=BLUEMIX&prevPage=srp",
@@ -79,7 +58,7 @@
             "productType": "Clothing",
             "listPriceText": "&pound; 12.00",
             "title": "Floral Square Neck Bikini Top",
-            "averageRating": "0.0",
+            "averageRating": "4.0",
             "modelViewImage": "SD_01_T52_5297B_Y4_X_EC_90",
             "productViewImage": "SD_01_T52_5297B_Y4_X_EC_90",
             "productSeoUrl": "/floral-square-neck-bikini-top/p/clp60464327?image=SD_01_T52_5297B_Y4_X_EC_90&color=BLACKMIX&prevPage=srp",
@@ -102,7 +81,7 @@
             "productType": "Clothing",
             "listPriceText": "&pound; 19.50",
             "title": "Flexifit™ Lounge Hoodie",
-            "averageRating": "0.0",
+            "averageRating": "4.40",
             "modelViewImage": "SD_02_T37_3414T_XG_X_EC_0",
             "productViewImage": "SD_02_T37_3414T_XG_X_EC_90",
             "productSeoUrl": "/flexifit-lounge-hoodie/p/clp60519376?image=SD_02_T37_3414T_XG_X_EC_90&color=CARAMELMIX&prevPage=srp",
@@ -278,6 +257,29 @@
             ],
             "stock": "10",
             "description": "With its smooth satin fabric and all-over polka dots, this tea dress is all about timeless elegance. It's cut to a regular fit with a flowy midaxi-length skirt. A fixed tie front belt lets you draw in the waist for a truly flattering shape. \n M&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles."
+        },
+        {
+            "currency": "GBP",
+            "brand": "Per Una",
+            "productDefinition": "Blouses",
+            "outOfStock": false,
+            "productType": "Clothing",
+            "listPriceText": "&pound; 35.00",
+            "title": "Pure Cotton Broderie V-Neck Blouse",
+            "averageRating": "5.0",
+            "modelViewImage": "SD_01_T53_2203U_KY_X_EC_90",
+            "productViewImage": "SD_01_T53_2203U_KY_X_EC_90",
+            "productSeoUrl": "/pure-cotton-broderie-v-neck-blouse/p/clp60458923?image=SD_01_T53_2203U_KY_X_EC_90&color=IVORY&prevPage=srp",
+            "productId": "P60458923",
+            "productColour": "IVORY",
+            "sex": "Female",
+            "size": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "stock": "10",
+            "description": "All-over florals and a swishy swing silhouette lend a playful feel to this knee-length dress. It's cut in a comfy regular fit, with a collared neckline and button-through front for a smart touch. The 3/4 length sleeves are pleated at the cuffs for added volume. Made with sustainably sourced viscose. \nM&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles."
         }
     ]
 }

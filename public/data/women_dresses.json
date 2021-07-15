@@ -4,6 +4,30 @@
     "products": [
         {
             "currency": "GBP",
+            "brand": "SOSANDAR",
+            "productDefinition": "Dresses",
+            "outOfStock": false,
+            "productType": "Clothing",
+            "listPriceText": "&pound; 59.00",
+            "title": "Animal Print Knee Smock Dress",
+            "averageRating": "5.0",
+            "modelViewImage": "SD_08_T83_5523_B4_X_EC_0",
+            "productViewImage": "SD_08_T83_5523_B4_X_EC_90",
+            "productSeoUrl": "/animal-print-knee-length-smock-dress/p/clp22529628?color=REDMIX",
+            "productId": "P22529628",
+            "productColour": "REDMIX",
+            "sex": "Female",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "stock": "20",
+            "description": "Add a bold note to your summer wardrobe with this eye-catching leopard print dress by Sosandar. It's cut to a comfortable regular fit, with flattering cap sleeves and a sophisticated v-neckline. This smock dress features an on-trend tiered hem that falls to the knee."
+        },
+        {
+            "currency": "GBP",
             "brand": "M&S Collection",
             "productDefinition": "Dresses",
             "outOfStock": false,
@@ -33,7 +57,7 @@
             "productType": "Clothing",
             "listPriceText": "&pound; 39.50",
             "title": "Floral Short Sleeve Midi Shirt Dress",
-            "averageRating": "0.0",
+            "averageRating": "5.0",
             "modelViewImage": "SD_01_T69_8642_E4_X_EC_0",
             "productViewImage": "SD_01_T69_8642_E4_X_EC_90",
             "productSeoUrl": "/floral-short-sleeve-midi-shirt-dress/p/clp60448253?image=SD_01_T69_8642_E4_X_EC_90&color=BLUEMIX&prevPage=srp",
@@ -47,28 +71,6 @@
             ],
             "stock": "14",
             "description": "We've given the classic shirt dress a floral flourish with this statement-making design. It's cut in a regular fit, with a waist-skimming empire line and elegant midi length. The button placket finishes just below the knee, creating a flowing split hem. Short sleeves make it perfect for warmer weather. M&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles."
-        },
-        {
-            "currency": "GBP",
-            "productDefinition": "Dresses",
-            "outOfStock": false,
-            "productType": "Clothing",
-            "listPriceText": "&pound; 8.00",
-            "title": "Cotton Leopard Print Dress (2-7 Yrs)",
-            "averageRating": "5.0",
-            "modelViewImage": "SD_04_T77_4522B_F4_X_EC_0",
-            "productViewImage": "SD_04_T77_4522B_F4_X_EC_90",
-            "productSeoUrl": "/pure-cotton-leopard-print-dress-2-7-yrs-/p/clp60508308?image=SD_04_T77_4522B_F4_X_EC_90&color=NAVYMIX&prevPage=srp",
-            "productId": "P60508308",
-            "productColour": "NAVYMIX",
-            "sex": "Female",
-            "size": [
-                "L",
-                "XL",
-                "XXL"
-            ],
-            "stock": "20",
-            "description": "This pure cotton leopard print dress is perfect for everyday wear. Designed in an easy regular fit, with a round neck and cosy long sleeves. Features a waist seam and a pretty, gently flared skirt. Finished with a fun all-over leopard print. Made with organic cotton. All of the cotton for our clothing is sustainably sourced and always will be."
         },
         {
             "currency": "GBP",
@@ -234,17 +236,17 @@
         },
         {
             "currency": "GBP",
-            "brand": "FINERY LONDON",
+            "brand": "SOSANDAR",
             "productDefinition": "Dresses",
             "outOfStock": false,
             "productType": "Clothing",
             "listPriceText": "&pound; 45.00",
-            "title": "Collared Button Through Mini Shirt",
+            "title": "Leaf Sleeveless Midi Swing Dress",
             "averageRating": "4.24",
-            "modelViewImage": "SD_08_T83_4818_KF_X_EC_90",
-            "productViewImage": "SD_08_T83_4818_KF_X_EC_90",
+            "modelViewImage": "SD_08_T83_5524_Y4_X_EC_0",
+            "productViewImage": "SD_08_T83_5524_Y4_X_EC_90",
             "productSeoUrl": "/collared-button-through-mini-shirt-dress/p/clp22527603?color=EMERALD",
-            "productId": "P22527603",
+            "productId": "P22529629",
             "productColour": "EMERALD",
             "sex": "Female",
             "size": [
@@ -253,7 +255,7 @@
                 "XL"
             ],
             "stock": "10",
-            "description": "With its smooth satin fabric and all-over polka dots, this tea dress is all about timeless elegance. It's cut to a regular fit with a flowy midaxi-length skirt. A fixed tie front belt lets you draw in the waist for a truly flattering shape. \n M&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles."
+            "description": "Bring a tropical feel to your wardrobe with this leaf print swing dress by Sosandar. It's cut to a regular fit, with a sleeveless swing design, classic round neck and feminine tie-waist. This summer-ready style falls to a flattering midi length."
         },
         {
             "currency": "GBP",
