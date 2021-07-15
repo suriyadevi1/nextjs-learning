@@ -33,7 +33,7 @@
             "address": "London",
             "gender": "Male",
             "preference": {
-                "size": ["M","L"],
+                "size": ["M","L","XXL"],
                 "categories": ["Dresses","Shirts"],
                 "avatar": "/images/percypig.jpg",
                 "hpContent": "Hello Mr Percy pig"

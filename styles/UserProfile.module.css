@@ -1,0 +1,15 @@
+.categories {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+.sizes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: salmon;
+}

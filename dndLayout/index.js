@@ -4,6 +4,8 @@ import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import { Row } from "react-bootstrap";
 
 import styles from "../styles/Home.module.css";
+//import userProfilestyles from "../styles/UserProfile.module.css";
+
 import PropTypes from "prop-types";
 
 const getItems = (items) =>
@@ -68,7 +70,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const dndLayout = ({ id, items, selected }) => {   
+const dndLayout = ({ id, items, selected, className }) => {   
     const [state, setState] = React.useState({
        items : getItems(items),
        selected : getItems(selected)
@@ -128,10 +130,11 @@ const dndLayout = ({ id, items, selected }) => {
     return (
         <main className={styles.main}>
         <Row>
-            <div id={id} style={{"display":"flex", "justifyContent": "space-between"}}>
+            <div id={id} className={className}>
                 <DragDropContext
                 onDragEnd={onDragEnd}>
-                    <Droppable droppableId="droppable">
+                    Available:
+                    <Droppable droppableId="droppable" isCombineEnabled="true">
                         {(provided, snapshot) => (
                             <div
                                 ref={provided.innerRef}
@@ -160,7 +163,8 @@ const dndLayout = ({ id, items, selected }) => {
                             </div>
                         )}
                     </Droppable>
-                    <Droppable droppableId="droppable2">
+                    Selected:
+                    <Droppable droppableId="droppable2" isCombineEnabled="true">
                         {(provided, snapshot) => (
                             <div
                                 ref={provided.innerRef}
@@ -179,7 +183,7 @@ const dndLayout = ({ id, items, selected }) => {
                                                 style={getItemStyle(
                                                     snapshot.isDragging,
                                                     provided.draggableProps.style
-                                                )}>
+                                                )}> 
                                                 {item.content}
                                             </div>
                                         )}
