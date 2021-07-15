@@ -6,6 +6,7 @@ const allCategories = ['Dresses', 'Shirts', 'Tops', 'Unisex'];
 const selectedCategories = ['Dresses'];
 // const allCategories = ['S','M','L', 'XL', 'XXL']; 
 // const selectedCategories = ['XL', 'XXL'];
+
 const getItems = (items) =>
     items.map((i, k) => ({
         id: i,

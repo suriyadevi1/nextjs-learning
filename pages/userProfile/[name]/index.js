@@ -1,20 +1,29 @@
 import { useRouter } from 'next/router'
 // import Link from 'next/link'
+import DndLayout from "../../../dndLayout";
 import Header from '../../../components/Header'
 
-import { users } from '../../../public/data/users.json'
+import users from '../../../public/data/users.json'
 
 const UserProfile = () => {
   const router = useRouter()
   const { name } = router.query
-  const { preference } = users[name];
+
+  console.log('SIMON1:', users.users);
+  const { preference } = users.users[name];
 
   console.log('SIMON:', name, preference);
+
+
+const items = ['Shirts', 'Tops', 'Unisex']; 
+const selected = ['Dresses'];
 
   return (
     <>
       <Header />
-      <h1>My name: {name}, {preference.size[1]} </h1>
+      <h1>Preferences for: {name} </h1>
+      <h2>Categories: </h2>
+      <DndLayout id={'categories'} items={items} selected={selected} />
 
     </>
   )
