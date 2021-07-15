@@ -31,9 +31,9 @@
             "dob": "29-11-1988",
             "age": "32",
             "address": "London",
-            "gender": "Male",
+            "gender": "Both",
             "preference": {
-                "size": ["M","L","XXL"],
+                "size": ["M","L"],
                 "categories": ["Dresses","Shirts"],
                 "avatar": "/images/percypig.jpg",
                 "hpContent": "Hello Mr Percy pig"

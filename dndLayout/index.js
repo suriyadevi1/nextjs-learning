@@ -4,14 +4,10 @@ import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import { Row } from "react-bootstrap";
 
 import styles from "../styles/Home.module.css";
-//import userProfilestyles from "../styles/UserProfile.module.css";
-
 import PropTypes from "prop-types";
 
 const getItems = (items) =>
-    items.map((i, k) => ({
-        id: i,
-        content: i
+    items.map((i) => ({id: i, content: i
 }));
 
 // a little function to help us with reordering the result
@@ -49,7 +45,7 @@ const getItemStyle = (isDragging, draggableStyle) => ({
     margin: `0 0 ${grid}px 0`,
 
     // change background colour if dragging
-    background: isDragging ? 'lightgreen' : 'grey',
+    background: isDragging ? 'lightgreen' : 'white',
 
     // styles we need to apply on draggables
     ...draggableStyle
@@ -76,15 +72,6 @@ const dndLayout = ({ id, items, selected, className }) => {
        selected : getItems(selected)
     });
 
-    /**
-     * A semi-generic way to handle multiple lists. Matches
-     * the IDs of the droppable container to the names of the
-     * source arrays stored in the state.
-     */
-    // this.id2List = {
-    //     droppable: 'items',
-    //     droppable2: 'selected'
-    // };
     const id2List = {
         droppable: 'items',
         droppable2: 'selected'
@@ -128,81 +115,72 @@ const dndLayout = ({ id, items, selected, className }) => {
         }
     };
     return (
-        <main className={styles.main}>
-        <Row>
-            <div id={id} className={className}>
-                <DragDropContext
-                onDragEnd={onDragEnd}>
-                    Available:
-                    <Droppable droppableId="droppable" isCombineEnabled="true">
-                        {(provided, snapshot) => (
-                            <div
-                                ref={provided.innerRef}
-                                style={getListStyle(snapshot.isDraggingOver)}>
-                                {state.items.map((item, index) => (
-                                    <Draggable
-                                        key={item.id}
-                                        draggableId={item.id}
-                                        index={index}>
-                                        {(provided, snapshot) => (
-                                            <div
-                                                ref={provided.innerRef}
-                                                {...provided.draggableProps}
-                                                {...provided.dragHandleProps}
-                                                data-context='unselected'
-                                                style={getItemStyle(
-                                                    snapshot.isDragging,
-                                                    provided.draggableProps.style
-                                                )}>
-                                                {item.content}
-                                            </div>
-                                        )}
-                                    </Draggable>
-                                ))}
-                                {provided.placeholder}
-                            </div>
-                        )}
-                    </Droppable>
-                    Selected:
-                    <Droppable droppableId="droppable2" isCombineEnabled="true">
-                        {(provided, snapshot) => (
-                            <div
-                                ref={provided.innerRef}
-                                style={getListStyle(snapshot.isDraggingOver)}>
-                                {state.selected.map((item, index) => (
-                                    <Draggable
-                                        key={item.id}
-                                        draggableId={item.id}
-                                        index={index}>
-                                        {(provided, snapshot) => (
-                                            <div
-                                                ref={provided.innerRef}
-                                                {...provided.draggableProps}
-                                                {...provided.dragHandleProps}
-                                                data-context='selected'
-                                                style={getItemStyle(
-                                                    snapshot.isDragging,
-                                                    provided.draggableProps.style
-                                                )}> 
-                                                {item.content}
-                                            </div>
-                                        )}
-                                    </Draggable>
-                                ))}
-                                {provided.placeholder}
-                            </div>
-                        )}
-                    </Droppable>
-                </DragDropContext>
-                </div>
-        </Row>
-    
-        </main>
+        <div id={id} className={className}>
+            <DragDropContext
+            onDragEnd={onDragEnd}>
+                Available:
+                <Droppable droppableId="droppable" isCombineEnabled="true">
+                    {(provided, snapshot) => (
+                        <div
+                            ref={provided.innerRef}
+                            style={getListStyle(snapshot.isDraggingOver)}>
+                            {state.items.map((item, index) => (
+                                <Draggable
+                                    key={item.id}
+                                    draggableId={item.id}
+                                    index={index}>
+                                    {(provided, snapshot) => (
+                                        <div
+                                            ref={provided.innerRef}
+                                            {...provided.draggableProps}
+                                            {...provided.dragHandleProps}
+                                            data-context='unselected'
+                                            style={getItemStyle(
+                                                snapshot.isDragging,
+                                                provided.draggableProps.style
+                                            )}>
+                                            {item.content}
+                                        </div>
+                                    )}
+                                </Draggable>
+                            ))}
+                            {provided.placeholder}
+                        </div>
+                    )}
+                </Droppable>
+                Selected:
+                <Droppable droppableId="droppable2" isCombineEnabled="true">
+                    {(provided, snapshot) => (
+                        <div
+                            ref={provided.innerRef}
+                            style={getListStyle(snapshot.isDraggingOver)}>
+                            {state.selected.map((item, index) => (
+                                <Draggable
+                                    key={item.id}
+                                    draggableId={item.id}
+                                    index={index}>
+                                    {(provided, snapshot) => (
+                                        <div
+                                            ref={provided.innerRef}
+                                            {...provided.draggableProps}
+                                            {...provided.dragHandleProps}
+                                            data-context='selected'
+                                            style={getItemStyle(
+                                                snapshot.isDragging,
+                                                provided.draggableProps.style
+                                            )}> 
+                                            {item.content}
+                                        </div>
+                                    )}
+                                </Draggable>
+                            ))}
+                            {provided.placeholder}
+                        </div>
+                    )}
+                </Droppable>
+            </DragDropContext>
+            </div>
     );
-};
-
-dndLayout.propTypes = {
-  productsList: PropTypes.array,
 };
 
 export default dndLayout;

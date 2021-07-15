@@ -1,15 +1,26 @@
+.gender {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 20px;
+    background-color:rgba(199, 83, 21, 0.988);
+    border-radius: 16px;
+}
+
 .categories {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: auto;
     padding: 20px;
     background-color: cadetblue;
+    border-radius: 16px;
 }
 
 .sizes {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: auto;
     padding: 20px;
-    background-color: salmon;
+    background-color:rgba(199, 83, 21, 0.988);
+    border-radius: 16px;
 }
