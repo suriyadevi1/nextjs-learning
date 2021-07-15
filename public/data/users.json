@@ -1,56 +1,56 @@
 {
-    "users": {
-        "suriya": {
-            "name": "suriya",
-            "dob": "29-11-1988",
-            "age": "32",
-            "address": "London",
-            "gender": "Female",
-            "preference": {
-                "size": ["M","L"],
-                "categories": ["Dresses","Shirts"],
-                "avatar": "/images/unicorn.jpg",
-                "hpContent": "Welcome dear unicorn. Look into colourful clothes &  tops"
-            }
-        },
-        "stanley": {
-            "name": "stanley",
-            "dob": "29-11-1988",
-            "age": "32",
-            "address": "London",
-            "gender": "Male",
-            "preference": {
-                "size": ["M","L"],
-                "categories": ["Dresses","Shirts"],
-                "avatar": "/images/mrBean.jpg",
-                "hpContent": "Hello Mr Bean!!"
-            }
-        },
-        "simon": {
-            "name": "simon",
-            "dob": "29-11-1988",
-            "age": "32",
-            "address": "London",
-            "gender": "Male",
-            "preference": {
-                "size": ["M","L"],
-                "categories": ["Dresses","Shirts"],
-                "avatar": "/images/percypig.jpg",
-                "hpContent": "Hello Mr Percy pig"
-            }
-        },
-        "dev": {
-            "name": "dev",
-            "dob": "29-11-1988",
-            "age": "32",
-            "address": "London",
-            "gender": "Both",
-            "preference": {
-                "size": ["M","L"],
-                "categories": ["Dresses","Shirts","Unisex"],
-                "avatar": "/images/percypig.jpg",
-                "hpContent": "Hello Mr Percy pig"
-            }
-        }
+  "users": [
+    {
+      "name": "suriya",
+      "dob": "29-11-1988",
+      "age": "32",
+      "address": "London",
+      "gender": "Female",
+      "preference": {
+        "size": ["M", "L"],
+        "categories": ["Dresses", "Shirts"],
+        "avatar": "/images/unicorn.jpg",
+        "hpContent": "Welcome dear unicorn. Look into colourful clothes &  tops"
+      }
+    },
+    {
+      "name": "stanley",
+      "dob": "29-11-1988",
+      "age": "32",
+      "address": "London",
+      "gender": "Male",
+      "preference": {
+        "size": ["M", "L"],
+        "categories": ["Dresses", "Shirts"],
+        "avatar": "/images/mrBean.jpg",
+        "hpContent": "Hello Mr Bean!!"
+      }
+    },
+    {
+      "name": "simon",
+      "dob": "29-11-1988",
+      "age": "32",
+      "address": "London",
+      "gender": "Male",
+      "preference": {
+        "size": ["M", "L"],
+        "categories": ["Dresses", "Shirts"],
+        "avatar": "/images/percypig.jpg",
+        "hpContent": "Hello Mr Percy pig"
+      }
+    },
+    {
+      "name": "dev",
+      "dob": "29-11-1988",
+      "age": "32",
+      "address": "London",
+      "gender": "Both",
+      "preference": {
+        "size": ["M", "L"],
+        "categories": ["Dresses", "Shirts", "Unisex"],
+        "avatar": "/images/percypig.jpg",
+        "hpContent": "Hello Mr Percy pig"
+      }
     }
+  ]
 }

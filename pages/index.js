@@ -2,15 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import summerMW from "../public/images/summer-mw.jpg";
 import summerWW from "../public/images/summer-ww.jpg";
-import settings from "../public/images/user.gif";
 import styles from "../styles/Home.module.css";
 import { useState } from "react";
-import getUserData from "../util/getUserData";
-
-const iconSize = {
-  width: 40,
-  height: 40,
-};
+import userDataCollection from "../util/getUserData";
 
 const hpGenericcontent = () => {
   return (
@@ -44,7 +38,7 @@ const Index = () => {
 
   const onChange = async (event) => {
     const userName = event.target.value;
-    const userProfileData = await getUserData(userName);
+    const userProfileData = await userDataCollection.getUserData(userName);
     if (userProfileData.length > 0) {
       sethpContent(userProfileData[0].preference.hpContent);
       setprofileName(userName);
@@ -75,7 +69,6 @@ const Index = () => {
           name="username"
           placeholder="Type your profile name"
           value={profileName}
-          defaultValue="Hello!"
         /> 
         <div>
           <p>
@@ -84,7 +77,7 @@ const Index = () => {
           </p>
           <p>
             Go to your site
-            <Link href="/shirts" className="button">
+            <Link href={profileName} className="button">
               {profileName}
             </Link>
           </p>

@@ -12,7 +12,7 @@ const Home = ({ productsList }) => (
       <meta name="description" content="Products Listing of Dresses" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <Header/>
+
     <div className={styles.heading}>
     <h1>Products Listing of Dresses</h1>
     </div>

@@ -5,14 +5,13 @@ import PropTypes from "prop-types";
 import getApiResult from '../util/getApiResults'
 import Header from "../components/Header";
 
-const Home = ({ productsList }) => (
+const Dresses = ({ productsList }) => (
   <div className={styles.container}> 
     <Head className="justify-content-center">
       <title>Products Listing</title>
       <meta name="description" content="Products Listing of Dresses" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <Header/>
     <div className={styles.heading}>
     <h1>Products Listing of Dresses</h1>
     </div>
@@ -23,7 +22,7 @@ const Home = ({ productsList }) => (
   </div>
 );
 
-Home.propTypes = {
+Dresses.propTypes = {
   productsList: PropTypes.object,
 };
 
@@ -36,4 +35,4 @@ export const getStaticProps = async () => {
   };
 };
 
-export default Home;
+export default Dresses;
