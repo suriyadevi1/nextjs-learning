@@ -1,9 +1,9 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Layout from "../layout";
+import Layout from "../layout/layout";
 import PropTypes from "prop-types";
 import getApiResult from '../util/getApiResults'
-import Header from "../components/Header";
+import GenericHeader from "../components/GenericHeader";
 
 const Dresses = ({ productsList }) => (
   <div className={styles.container}> 
@@ -12,6 +12,7 @@ const Dresses = ({ productsList }) => (
       <meta name="description" content="Products Listing of Dresses" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
+    <GenericHeader />
     <div className={styles.heading}>
     <h1>Products Listing of Dresses</h1>
     </div>
@@ -23,7 +24,7 @@ const Dresses = ({ productsList }) => (
 );
 
 Dresses.propTypes = {
-  productsList: PropTypes.object,
+  productsList: PropTypes.array,
 };
 
 export const getStaticProps = async () => {

@@ -2,9 +2,10 @@ import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
 import userDataCollection from "../util/getUserData";
 import { useState, useEffect } from "react";
-import Shirts from "../pages/shirts";
 import PropTypes from "prop-types";
 import Image from "next/image";
+import React from 'react';
+import Dresses from "../pages/dresses"
 
 
 export default function Header(profileName) {
@@ -14,7 +15,6 @@ export default function Header(profileName) {
     const defaultCategories = ["Shirts", "Dresses", "Tops", "Unisex"];
     if (profileName) {
       const userData = await userDataCollection.getUserData(profileName);
-      console.log("userData", userData);
 
       if (userData.length > 0) {
         setcategoriesList(userData[0].preference.categories);
@@ -41,14 +41,12 @@ export default function Header(profileName) {
       Get Personal
       <div>Welcome {profileName.profileName}</div>
       <div className={styles.nav}>
-        <Link href="/">Home</Link>
+        <Link href="/">HOME</Link>
         {categoriesList.map((category) => {
-          console.log("category", category);
-          return <Link href={category.toLowerCase()}>{category}</Link>;
+          return <Link href={category}>{category.toUpperCase()}
+          </Link>;
         })}
-        ); } }
       </div>
-      <div><p>{avatar}</p> </div>
     </div>
   );
 }
@@ -57,11 +55,12 @@ Header.propTypes = {
   profileName: PropTypes.string,
 };
 
+
 const Link = ({ children, href }) => {
   const router = useRouter();
   return (
     <a
-      href="#"
+      href=""
       onClick={(e) => {
         e.preventDefault();
         router.push(href);

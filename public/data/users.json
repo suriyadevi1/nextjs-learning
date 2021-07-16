@@ -8,9 +8,9 @@
       "gender": "Female",
       "preference": {
         "size": ["M", "L"],
-        "categories": ["Dresses", "Shirts"],
+        "categories": ["dresses", "shirts"],
         "avatar": "/images/unicorn.jpg",
-        "hpContent": "Welcome dear unicorn. Look into colourful clothes &  tops"
+        "hpContent": "Welcome dear unicorn. There is no limit to learn. Every day, every step, we are learning, exploring and finding what you’re passionate and interested about - Suriya"
       }
     },
     {
@@ -21,7 +21,7 @@
       "gender": "Male",
       "preference": {
         "size": ["M", "L"],
-        "categories": ["Dresses", "Shirts"],
+        "categories": ["dresses", "shirts"],
         "avatar": "/images/mrBean.jpg",
         "hpContent": "Hello Mr Bean!!"
       }
@@ -34,7 +34,7 @@
       "gender": "Male",
       "preference": {
         "size": ["M", "L"],
-        "categories": ["Dresses", "Shirts"],
+        "categories": ["tops", "shirts"],
         "avatar": "/images/percypig.jpg",
         "hpContent": "Hello Mr Percy pig"
       }
@@ -47,9 +47,9 @@
       "gender": "Both",
       "preference": {
         "size": ["M", "L"],
-        "categories": ["Dresses", "Shirts", "Unisex"],
-        "avatar": "/images/percypig.jpg",
-        "hpContent": "Hello Mr Percy pig"
+        "categories": ["dresses", "shirts", "unisex"],
+        "avatar": "/images/peterpan.jpg",
+        "hpContent": "Hello Mr Peter pan, Stop playing and help me find my shadow! Shadow … shadow …"
       }
     }
   ]

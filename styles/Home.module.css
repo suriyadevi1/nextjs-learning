@@ -202,7 +202,9 @@
 .customContent{
   color: beige;
   border-radius: 50%;
-  align-content: center;
+ text-align: right;
+  font-weight: 800;
+  font-size: 25px;
 }
 .customContent .img {
   border-radius: 10px;
