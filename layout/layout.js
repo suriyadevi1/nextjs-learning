@@ -124,7 +124,7 @@ const Layout = ({ productsList }) => {
             return (
               <Col className={styles.col} key={product.title}>
                 <Link
-                  href={`https://www.marksandspencer.com/${product.productSeoUrl}`}
+                  href={`https://www.marksandspencer.com${product.productSeoUrl}`}
                   as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}`}
                 >
                   <Card className={styles.card}>
