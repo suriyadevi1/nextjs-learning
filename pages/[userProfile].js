@@ -13,6 +13,10 @@ const Profile = ({ postData }) => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Header profileName={postData} />
+    <div className={styles.userPreferenceContent}>
+    <p>This is your place</p>
+    <p>You can personalise the content to your likes.</p>
+     <p>You can personalise the content to your likes. Create your site.</p></div>
   </div>
 );
 
