@@ -22,7 +22,7 @@ const Layout = ({ productsList }) => {
             return (
               <Col className={styles.col} key={product.title}>
                 <Link
-                  href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                  href={`https://www.marksandspencer.com/${product.productSeoUrl}`}
                   as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}`}
                 >
                   <Card className={styles.card}>
@@ -35,7 +35,7 @@ const Layout = ({ productsList }) => {
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
                         <a
-                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                          href={`https://www.marksandspencer.com/${product.productSeoUrl}`}
                         >
                           {product.title}
                         </a>
@@ -56,7 +56,7 @@ const Layout = ({ productsList }) => {
             return (
               <Col className={styles.col} key={product.title}>
                 <Link
-                  href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                  href={`https://www.marksandspencer.com/${product.productSeoUrl}`}
                   as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}`}
                 >
                   <Card className={styles.card}>
@@ -69,7 +69,7 @@ const Layout = ({ productsList }) => {
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
                         <a
-                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                          href={`https://www.marksandspencer.com/${product.productSeoUrl}`}
                         >
                           {product.title}
                         </a>
@@ -90,7 +90,7 @@ const Layout = ({ productsList }) => {
             return (
               <Col className={styles.col} key={product.title}>
                 <Link
-                  href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                  href={`https://www.marksandspencer.com/${product.productSeoUrl}`}
                   as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}`}
                 >
                   <Card className={styles.card}>
@@ -103,7 +103,7 @@ const Layout = ({ productsList }) => {
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
                         <a
-                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                          href={`https://www.marksandspencer.com/${product.productSeoUrl}`}
                         >
                           {product.title}
                         </a>
@@ -124,7 +124,7 @@ const Layout = ({ productsList }) => {
             return (
               <Col className={styles.col} key={product.title}>
                 <Link
-                  href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                  href={`https://www.marksandspencer.com/${product.productSeoUrl}`}
                   as={`https://asset1.cxnmarksandspencer.com/is/image/mands/${product.modelViewImage}`}
                 >
                   <Card className={styles.card}>
@@ -137,7 +137,7 @@ const Layout = ({ productsList }) => {
                     <Card.Body className="d-flex flex-column">
                       <Card.Title>
                         <a
-                          href={`https://www.sit2.marksandspencer.com/${product.productSeoUrl}`}
+                          href={`https://www.marksandspencer.com/${product.productSeoUrl}`}
                         >
                           {product.title}
                         </a>
